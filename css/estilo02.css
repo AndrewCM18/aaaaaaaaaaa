@@ -1,0 +1,18 @@
+p{
+    background-color: thistle;
+    color: violet;
+}
+#Parrafo01{
+    color: royalblue;
+}
+/*selectores de clase*/
+
+.ejemplo{
+    background-color: saddlebrown;
+    color: seagreen;
+    height: 50px;
+}
+/*los hijos de la clase*/
+.ejemplo p{
+    color: darkturquoise;
+}

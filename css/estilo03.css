@@ -1,0 +1,11 @@
+.rojo{
+    color: deeppink;
+
+}
+.verde{
+    color: forestgreen;
+}
+/* selectores de atributo*/
+input[type]{
+    width: 50%;
+}

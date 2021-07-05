@@ -1,0 +1,38 @@
+/*selectores de etiqueta */
+*{
+
+}
+/*selectores de etiqueta*/
+div{
+    background-color: burlywood;
+    width: 100%;/*ancho*/
+    height: 40%;/*alto*/
+    text-align: center;/*alinear el texto centrado */
+}
+header
+{
+    width: 200px;
+    height: 400px;
+    background-color: chartreuse;
+    border: 2px solid springgreen;/*ancho y color de borde */
+    margin: auto;/*centrar el caja de forma automatica*/
+}
+/* los hijos de las etiquetas*/
+
+header div{
+    background-color: yellow;
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    margin-top: 50px;/*separar el margen superior de cada div a 50px*/
+
+
+}
+/*con los hijos directos*/
+header>div{
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    background-color: violet;
+    margin: 50px;
+}
